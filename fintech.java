@@ -100,36 +100,32 @@ public class fintech {
 //System.out.println("The sum is " + (x + y)); // Prints: The sum is 11
 
 
-Scanner searcher = new Scanner(System.in);
+
 //int day = 8;
 //String answer = (day ==1 ) ? "work" : "else"; 
 //System.out.println(answer);
 
-//цель написать код который провиряет граждансво, возорс, и пол чтобы войти кудато. 
+//цель написать код котрый проверяет граждансво и возорст для входа в клуб. 
 
-System.out.println("Welcom to the libreary");
+Scanner ska = new Scanner(System.in);
 
-System.out.println("Plrase enter your age"); //must be 18+=
-int age = searcher.nextInt();
-System.out.println("Are you boy or girl?");
-String gender = searcher.nextLine();
-System.out.println("What ie your name??");
+System.out.println("Hi, are you citizen? (yes or no)");
+String isCitizen = ska.nextLine();
+if (isCitizen.equalsIgnoreCase("yes")) {
 
-if (age>= 18){ 
-  System.out.println("Your enough old.");
-  if (gender.equals("girl" || "Girl")) {
-    //почему девушка с маленькой и большой подсвечивает крассным?
-  }
-}
+  System.out.println("Hou old are you&");
 
+int  age = ska.nextInt();
 
-
+if (age >= 18) { System.out.println("Pleas get in.");
+  
+} else System.out.println("Not enough old.");
+  
+} else System.out.println("Sorry, you must bi citizen.");
 
 
 
-        }
-
-    } 
 
 
-    
+
+/* конец*/ }}    
