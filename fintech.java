@@ -93,11 +93,37 @@ public class fintech {
         
 
             
-int x = 5;
-int y = 6;
+//int x = 5;
+//int y = 6;
 
-System.out.println("The sum is " + x + y);   // Prints: The sum is 56
-System.out.println("The sum is " + (x + y)); // Prints: The sum is 11
+//System.out.println("The sum is " + x + y);   // Prints: The sum is 56
+//System.out.println("The sum is " + (x + y)); // Prints: The sum is 11
+
+
+Scanner searcher = new Scanner(System.in);
+//int day = 8;
+//String answer = (day ==1 ) ? "work" : "else"; 
+//System.out.println(answer);
+
+//цель написать код который провиряет граждансво, возорс, и пол чтобы войти кудато. 
+
+System.out.println("Welcom to the libreary");
+
+System.out.println("Plrase enter your age"); //must be 18+=
+int age = searcher.nextInt();
+System.out.println("Are you boy or girl?");
+String gender = searcher.nextLine();
+System.out.println("What ie your name??");
+
+if (age>= 18){ 
+  System.out.println("Your enough old.");
+  if (gender.equals("girl" || "Girl")) {
+    //почему девушка с маленькой и большой подсвечивает крассным?
+  }
+}
+
+
+
 
 
 
