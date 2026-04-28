@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class bekedn {
     public static void main(String[] args) {
-        Scanner ask = new Scanner(System.in);
+        //Нарката
+        /*Scanner ask = new Scanner(System.in);
         System.out.println("What up?");
         String uns1 = ask.nextLine();
         if (uns1.equalsIgnoreCase("good")) {
@@ -15,5 +16,9 @@ public class bekedn {
  
         }  System.out.println("I am lil bit busy, see you lettr bro");
         } System.out.println("see u letter");
+         */
+
+
+        
     }
 }
